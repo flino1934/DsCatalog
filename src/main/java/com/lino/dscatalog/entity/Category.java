@@ -1,4 +1,4 @@
-package com.lino.dscatalog.entidade;
+package com.lino.dscatalog.entity;
 
 import java.io.Serializable;
 import java.util.Objects;
@@ -6,8 +6,8 @@ import java.util.Objects;
 public class Category implements Serializable {
 
     private static final long serialVersionUID = 1L;
-
     private long id;
+
     private String name;
 
     public Category() {
